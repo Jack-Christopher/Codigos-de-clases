@@ -15,16 +15,16 @@ int main()
 	string nombre2 = "Miguel", apellido2 = "Fernandez";
 	string nombre3 = "Mario", apellido3 = "Delgado";
 	
-	//Se declarandos objetos de calse Persona
+	//Se declaran tres objetos de clase Persona
 	Persona p1(nombre1 , apellido1, 10);
 	Persona p2(nombre2 , apellido2, 25);
 	Persona p3(nombre3, apellido3, 50);
 		
-	//Se aÒaden al final del arreglo
+	//Se a√±aden al final del arreglo
 	a1.push_back(p1);
 	a1.push_back(p2);
 	
-	//Se redimensiona a 4 elementos, como ya hay 2, se inicializan 2 m·s
+	//Se redimensiona a 4 elementos, como ya hay 2, se inicializan 2 m√°s
 	a1.redimensionar(4);
 	//Se inserta el elemento p3 en el indice 2
 	a1.insert(2,p3);
